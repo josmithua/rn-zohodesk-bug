@@ -1,3 +1,10 @@
+## Installation instructions
+
+1. Clone this repo
+1. Run `yarn install` to install dependencies
+1. Ensure you have expo installed (`yarn global add expo`)
+1. Run `expo run:ios` to build, install, and start the dev client on a simulator
+
 ## Steps to reproduce
 
 1. Click Log In.
