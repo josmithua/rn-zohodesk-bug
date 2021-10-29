@@ -44,10 +44,11 @@ export default function App() {
         1. Click Log In.{"\n"}
         2. Click Show Portal if desired, to verify that we are logged in.{"\n"}
         3. Click Log Out.{"\n"}
-        4. If log out works, go back to step 1 and repeat.{"\n"}
-        5. If log out doesn't work:{"\n\t"} 1) click Update to show that it
-        still reports logged in.{"\n\t"}2) Click Log Out again and notice
-        promise rejection.{"\n"}
+        4. If log out works (status updates to `false`), go back to step 1 and
+        repeat.{"\n"}
+        5. If log out doesn't work:{"\n\t"}1. Click Update to show that it still
+        reports logged in.{"\n\t"}2. Click Log Out again and notice promise
+        rejection.{"\n"}
         6. Click Show Portal.{"\n"}
         7. Click Update OR Log Out, and notice how the status updates correctly.
         Log In works again after this.
