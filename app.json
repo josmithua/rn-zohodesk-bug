@@ -17,7 +17,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow this app to take photos to include in support tickets",
+        "NSLocationWhenInUseUsageDescription": "Allow this app to use your location in rare cases",
+        "NSMicrophoneUsageDescription": "Allow this app to take videos with audio to include in support tickets",
+        "NSPhotoLibraryUsageDescription": "Allow this app to attach photos from your library to support tickets"
+      },
+      "bundleIdentifier": "com.josmithua.ZohoDeskTest"
     },
     "android": {
       "adaptiveIcon": {
